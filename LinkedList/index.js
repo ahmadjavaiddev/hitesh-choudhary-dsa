@@ -67,6 +67,7 @@ LinkedList.prototype.deleteLastNode = function () {
     while (secondLast.next.next) {
         secondLast = secondLast.next;
     }
+
     secondLast.next = null;
 };
 
